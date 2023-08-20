@@ -1,0 +1,54 @@
+* {
+  transition: all 0.25s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: steelblue;
+  background-image: url(https://media.redhonduras.com/wp-content/uploads/flag-national-honduras-03.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 120%;
+}
+
+#encabezado {
+  width: 80vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.opcion {
+  width: 80vw;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.opcion:hover{
+     background: rgb(59, 212, 166);
+}
+
+.caja1 {
+  width: 100px;
+  height: 30px;
+  background: white;
+  position: fixed;
+  top: 1px;
+  left: 50px;
+  text-align: center;
+}
