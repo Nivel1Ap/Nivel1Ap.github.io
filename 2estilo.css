@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: steelblue;
-  background-image: url(https://media.redhonduras.com/wp-content/uploads/flag-national-honduras-03.webp);
+  background-image: url(https://i.pinimg.com/originals/4c/98/03/4c98031c82e13834d5a40229675ca438.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -40,15 +40,46 @@ body {
 }
 
 .opcion:hover{
-     background: rgb(59, 212, 166);
+     background: lightgray;
 }
+header, .main, footer {
+  width:90%;
+  max-width:1000px;
+  margin:20px auto;
+  bottom: 10px;
+}
+
+header nav {
+  background:#528FD5;
+  overflow:hidden;
+}
+
+header nav ul {
+  list-style:none;
+}
+
+header nav ul li {
+ float:left;
+}
+
+header nav ul li a {
+  padding:10px 20px;
+  display:block;
+  color:#fff;
+  text-decoration:none;
+}
+
+header nav ul li a:hover {
+  background:#f30707;
+}
+
 
 .caja1 {
   width: 100px;
   height: 30px;
-  background: white;
+  background: #07fdd4;
   position: fixed;
-  top: 1px;
+  top: 10px;
   left: 50px;
   text-align: center;
 }
